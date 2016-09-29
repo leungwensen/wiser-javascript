@@ -1,0 +1,30 @@
+{
+  "name": "wiser",
+  "version": "0.0.1",
+  "description": "search engine from the book 《検索エンジン自作入門》, in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leungwensen/wiser-javascript.git"
+  },
+  "keywords": [
+    "engine",
+    "search engine",
+    "search",
+    "wiser"
+  ],
+  "author": "leungwensen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leungwensen/wiser-javascript/issues"
+  },
+  "homepage": "https://github.com/leungwensen/wiser-javascript#readme",
+  "dependencies": {
+    "sql.js": "^0.3.2",
+    "xml-lite": "^0.5.3",
+    "zero-lang": "^0.1.3"
+  }
+}
