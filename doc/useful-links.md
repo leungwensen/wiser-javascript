@@ -11,4 +11,5 @@ useful links
 * [wordfreq](https://github.com/timdream/wordfreq)
 * [IF-IDF](http://www.ruanyifeng.com/blog/2013/03/tf-idf.html)
 * [基于SNS的文本数据挖掘](http://www.matrix67.com/blog/archives/5044)
+* [japanese.js](https://github.com/hakatashi/japanese.js)
 
