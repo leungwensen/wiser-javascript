@@ -40,3 +40,5 @@ jspm_packages
 temp
 spec/fixtures/zhwiki*
 spec/fixtures/pages/
+spec/fixtures/db/
+spec/research/

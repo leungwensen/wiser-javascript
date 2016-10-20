@@ -1,28 +1,27 @@
 #!/usr/bin/env node
 'use strict';
 /**
- * xml2sqlite module
- * @module xml2sqlite
- * @see module:index
+ * load-wiki module
+ * @module load-wiki
  */
 const fs = require('fs');
 const path = require('path');
 const XMLLite = require('xml-lite');
-//const sqlite = require('sql.js');
+// const sqlite = require('sql.js');
 const es = require('event-stream');
 const lang = require('zero-lang');
 
-//fs.readFile(path.resolve(__dirname, '../spec/fixtures/zhwiki-20161001-pages-articles4.xml'), (err, data) => {
-//    if (err) {
-//        console.error(err);
-//    }
-//    let doc;
-//    try {
-//        doc = XMLLite.parse(data).documentElement;
-//    } catch (e) {
-//        console.log(doc);
-//    }
-//});
+// fs.readFile(path.resolve(__dirname, '../spec/fixtures/zhwiki-20161001-pages-articles4.xml'), (err, data) => {
+//     if (err) {
+//         console.error(err);
+//     }
+//     let doc;
+//     try {
+//         doc = XMLLite.parse(data).documentElement;
+//     } catch (e) {
+//         console.log(doc);
+//     }
+// });
 const IN_PAGE = 'in-page';
 const OUT_OF_PAGE = 'out-of-page';
 
